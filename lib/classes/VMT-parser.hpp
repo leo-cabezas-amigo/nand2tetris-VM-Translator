@@ -8,7 +8,7 @@
 #include <vector>
 #include <fstream>
 
-#include "../lib/VMT-lib.hpp"
+#include "../def-strings/VMT-string-lib.hpp"
 
 using namespace std;
 

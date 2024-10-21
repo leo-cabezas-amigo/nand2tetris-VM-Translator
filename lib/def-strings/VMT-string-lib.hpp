@@ -9,10 +9,10 @@
 #include <string>
 #include <map>
 
-#include "def-strings/VMT-arithmetic.hpp"
-#include "def-strings/VMT-pushpop.hpp"
-#include "def-strings/VMT-branching.hpp"
-#include "def-strings/VMT-function_cmds.hpp"
+#include "arithmetic-strings.hpp"
+#include "pushpop-strings.hpp"
+#include "branching-strings.hpp"
+#include "function_cmds-strings.hpp"
 
 #define C_ARITHMETIC 0
 #define C_PUSH_POP 1

@@ -10,8 +10,8 @@
 #include <iostream>
 #include <dirent.h>
 
-#include "./VMT-parser.hpp"
-#include "./VMT-codewriter.hpp"
+#include "VMT-parser.hpp"
+#include "VMT-codewriter.hpp"
 
 class Translator{
 	private:

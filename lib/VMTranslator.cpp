@@ -10,7 +10,7 @@
 //#include <iostream>
 //#include <dirent.h>
 
-#include "./classes/VMT-translator.hpp"
+#include "classes/VMT-translator.hpp"
 
 using namespace std;
 
@@ -22,7 +22,7 @@ int main(int argc, char** argv){
 		Translator translator;
 		
 		translator.clear_file(output_filepath);
-		//translator.inject_bootstrap(output_filepath);
+		// translator.inject_bootstrap(output_filepath); <- Debug boostrap injector!
 		translator.translate_directory(directory_path, output_filepath);
 		
 		cout << ">>> Translation of '" << directory_path << \
